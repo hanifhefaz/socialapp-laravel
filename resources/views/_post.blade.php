@@ -15,6 +15,10 @@
             </a>
                 <p class="text-sm">
                    {{$post->body}}
+                   
+                   <p class="text-xs bg-gray-200 rounded-full mr-2">Posted {{$post->created_at->diffForHumans()}}</p>
                 </p>
+
             </div>
+
         </div>
