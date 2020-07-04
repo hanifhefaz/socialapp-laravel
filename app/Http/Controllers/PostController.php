@@ -7,6 +7,7 @@ use App\Post;
 
 class PostController extends Controller
 {
+	
     public function store()
     {
     	$attributes = request()->validate(['body'=>'required|max:255']);

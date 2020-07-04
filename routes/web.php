@@ -23,6 +23,8 @@ Route::middleware('auth')->group(function() {
 	Route::get('/posts', 'PostController@index')->name('home');
 	Route::post('/posts', 'PostController@store');
 	Route::post('/profiles/{user}/follow', 'FollowsController@store');
+	Route::post('/comments/{post}', 'CommentController@store')->name('comments');
+
 });
 
 Route::get('/profiles/{user}', 'ProfilesController@show')->name('profile');

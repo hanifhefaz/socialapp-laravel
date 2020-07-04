@@ -17,8 +17,8 @@
                  height="50">
             	<button type="submit" class="bg-blue-300 rounded-lg shadow py-1 px-4 text-white">Post</button>
             </footer>
-
-            </form>
+</form>
+          
 
             @error('body')
             <p class="text-red-400 text-sm">{{$message}}
