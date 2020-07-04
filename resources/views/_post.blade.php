@@ -28,7 +28,6 @@
                 class="rounded-full mr-2 text-center"
                 width="50"
                 height="50"></a>
-            
                 <p class="text-sm mb-4 bg-gray-200 mr-2 p-4"> {{$comment->body}}
                     </div>
             </p>
